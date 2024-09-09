@@ -1,4 +1,4 @@
-module github.com/wenlng/go-captcha/v2
+module github.com/lukhaiminh/go-captcha/v2
 
 go 1.18
 

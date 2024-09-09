@@ -11,11 +11,11 @@ import (
 	"os"
 	"testing"
 
-	"github.com/wenlng/go-captcha/v2/base/canvas"
-	"github.com/wenlng/go-captcha/v2/base/codec"
-	"github.com/wenlng/go-captcha/v2/base/helper"
-	"github.com/wenlng/go-captcha/v2/base/option"
-	"github.com/wenlng/go-captcha/v2/click"
+	"github.com/lukhaiminh/go-captcha/v2/base/canvas"
+	"github.com/lukhaiminh/go-captcha/v2/base/codec"
+	"github.com/lukhaiminh/go-captcha/v2/base/helper"
+	"github.com/lukhaiminh/go-captcha/v2/base/option"
+	"github.com/lukhaiminh/go-captcha/v2/click"
 	"golang.org/x/image/draw"
 )
 

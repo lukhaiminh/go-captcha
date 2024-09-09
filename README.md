@@ -2,19 +2,19 @@
 <img width="120" style="padding-top: 50px; margin: 0;" src="http://47.104.180.148/go-captcha/gocaptcha_logo.svg?v=1"/>
 <h1 style="margin: 0; padding: 0">Go Captcha</h1>
 <p>Behavior Security Captcha</p>
-<a href="https://goreportcard.com/report/github.com/wenlng/go-captcha"><img src="https://goreportcard.com/badge/github.com/wenlng/go-captcha"/></a>
-<a href="https://godoc.org/github.com/wenlng/go-captcha"><img src="https://godoc.org/github.com/wenlng/go-captcha?status.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha/blob/v2/LICENSE"><img src="https://img.shields.io/badge/License-Apache2.0-green.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha"><img src="https://img.shields.io/github/stars/wenlng/go-captcha.svg"/></a>
-<a href="https://github.com/wenlng/go-captcha"><img src="https://img.shields.io/github/last-commit/wenlng/go-captcha.svg"/></a>
+<a href="https://goreportcard.com/report/github.com/lukhaiminh/go-captcha"><img src="https://goreportcard.com/badge/github.com/lukhaiminh/go-captcha"/></a>
+<a href="https://godoc.org/github.com/lukhaiminh/go-captcha"><img src="https://godoc.org/github.com/lukhaiminh/go-captcha?status.svg"/></a>
+<a href="https://github.com/lukhaiminh/go-captcha/releases"><img src="https://img.shields.io/github/v/release/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/lukhaiminh/go-captcha/blob/v2/LICENSE"><img src="https://img.shields.io/badge/License-Apache2.0-green.svg"/></a>
+<a href="https://github.com/lukhaiminh/go-captcha"><img src="https://img.shields.io/github/stars/wenlng/go-captcha.svg"/></a>
+<a href="https://github.com/lukhaiminh/go-captcha"><img src="https://img.shields.io/github/last-commit/wenlng/go-captcha.svg"/></a>
 </div>
 
 <br/>
 
 > English | [中文](README_zh.md)
 
-<p style="text-align: center"><a href="https://github.com/wenlng/go-captcha">Go Captcha</a> is a behavior security CAPTCHA, which implements text click verification, slide verification and rotation verification.</p>
+<p style="text-align: center"><a href="https://github.com/lukhaiminh/go-captcha">Go Captcha</a> is a behavior security CAPTCHA, which implements text click verification, slide verification and rotation verification.</p>
 
 <p style="text-align: center"> ⭐️ If it helps you, please give a star.</p>
 
@@ -24,15 +24,15 @@
 
 <br/>
 
-- GoCaptcha：[https://github.com/wenlng/go-captcha](https://github.com/wenlng/go-captcha)
+- GoCaptcha：[https://github.com/lukhaiminh/go-captcha](https://github.com/lukhaiminh/go-captcha)
 - GoCaptcha Document：[http://gocaptcha.wencodes.com](http://gocaptcha.wencodes.com)
-- Go Example：[https://github.com/wenlng/go-captcha-example](https://github.com/wenlng/go-captcha-example)
-- Go Assets File：[https://github.com/wenlng/go-captcha-assets](https://github.com/wenlng/go-captcha-assets)
-- Vue Package：[https://github.com/wenlng/go-captcha-vue](https://github.com/wenlng/go-captcha-vue)
-- React Package：[https://github.com/wenlng/go-captcha-react](https://github.com/wenlng/go-captcha-react)
-- Angular Package：[https://github.com/wenlng/go-captcha-angular](https://github.com/wenlng/go-captcha-angular)
-- Svelte Package：[https://github.com/wenlng/go-captcha-svelte](https://github.com/wenlng/go-captcha-svelte)
-- Solid Package：[https://github.com/wenlng/go-captcha-solid](https://github.com/wenlng/go-captcha-solid)
+- Go Example：[https://github.com/lukhaiminh/go-captcha-example](https://github.com/lukhaiminh/go-captcha-example)
+- Go Assets File：[https://github.com/lukhaiminh/go-captcha-assets](https://github.com/lukhaiminh/go-captcha-assets)
+- Vue Package：[https://github.com/lukhaiminh/go-captcha-vue](https://github.com/lukhaiminh/go-captcha-vue)
+- React Package：[https://github.com/lukhaiminh/go-captcha-react](https://github.com/lukhaiminh/go-captcha-react)
+- Angular Package：[https://github.com/lukhaiminh/go-captcha-angular](https://github.com/lukhaiminh/go-captcha-angular)
+- Svelte Package：[https://github.com/lukhaiminh/go-captcha-svelte](https://github.com/lukhaiminh/go-captcha-svelte)
+- Solid Package：[https://github.com/lukhaiminh/go-captcha-solid](https://github.com/lukhaiminh/go-captcha-solid)
 - Online Demo：[http://gocaptcha.wencodes.com/demo](http://gocaptcha.wencodes.com/demo)
 - ...
 
@@ -40,14 +40,14 @@
 
 ## Install Captcha Module
 ```shell
-$ go get -u github.com/wenlng/go-captcha/v2@latest
+$ go get -u github.com/lukhaiminh/go-captcha/v2@latest
 ```
 
 ## Import Captcha Module
 ```go
 package main
 
-import "github.com/wenlng/go-captcha/v2"
+import "github.com/lukhaiminh/go-captcha/v2"
 
 func main(){
    // ...
@@ -70,9 +70,9 @@ import (
 
 	"github.com/golang/freetype"
 	"github.com/golang/freetype/truetype"
-	"github.com/wenlng/go-captcha/v2/base/option"
-	"github.com/wenlng/go-captcha/v2/click"
-	"github.com/wenlng/go-captcha/v2/base/codec"
+	"github.com/lukhaiminh/go-captcha/v2/base/option"
+	"github.com/lukhaiminh/go-captcha/v2/click"
+	"github.com/lukhaiminh/go-captcha/v2/base/codec"
 )
 
 var textCapt click.Captcha
@@ -83,7 +83,7 @@ func init() {
 		click.WithRangeVerifyLen(option.RangeVal{Min: 2, Max: 4}),
 	)
 
-	// You can use preset material resources：https://github.com/wenlng/go-captcha-assets
+	// You can use preset material resources：https://github.com/lukhaiminh/go-captcha-assets
 	fontN, err := loadFont("../resources/fzshengsksjw_cu.ttf")
 	if err != nil {
 		log.Fatalln(err)
@@ -215,9 +215,9 @@ import (
 	"log"
 	"io/ioutil"
 
-	"github.com/wenlng/go-captcha/v2/base/option"
-	"github.com/wenlng/go-captcha/v2/slide"
-	"github.com/wenlng/go-captcha/v2/base/codec"
+	"github.com/lukhaiminh/go-captcha/v2/base/option"
+	"github.com/lukhaiminh/go-captcha/v2/slide"
+	"github.com/lukhaiminh/go-captcha/v2/base/codec"
 )
 
 var slideTileCapt slide.Captcha
@@ -225,7 +225,7 @@ var slideTileCapt slide.Captcha
 func init() {
 	builder := slide.NewBuilder()
 
-	// You can use preset material resources：https://github.com/wenlng/go-captcha-assets
+	// You can use preset material resources：https://github.com/lukhaiminh/go-captcha-assets
 	bgImage, err := loadPng("../resources/bg.png")
 	if err != nil {
 		log.Fatalln(err)
@@ -348,8 +348,8 @@ import (
 	"log"
 	"io/ioutil"
 
-	"github.com/wenlng/go-captcha/v2/rotate"
-	"github.com/wenlng/go-captcha/v2/base/codec"
+	"github.com/lukhaiminh/go-captcha/v2/rotate"
+	"github.com/lukhaiminh/go-captcha/v2/base/codec"
 )
 
 var rotateCapt rotate.Captcha
@@ -357,7 +357,7 @@ var rotateCapt rotate.Captcha
 func init() {
 	builder := rotate.NewBuilder()
 
-	// You can use preset material resources：https://github.com/wenlng/go-captcha-assets
+	// You can use preset material resources：https://github.com/lukhaiminh/go-captcha-assets
 	bgImage, err := loadPng("../resources/bg.png")
 	if err != nil {
 		log.Fatalln(err)

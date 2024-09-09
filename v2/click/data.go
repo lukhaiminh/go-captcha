@@ -6,7 +6,7 @@
 
 package click
 
-import "github.com/wenlng/go-captcha/v2/base/imagedata"
+import "github.com/lukhaiminh/go-captcha/v2/base/imagedata"
 
 // CaptchaData .
 type CaptchaData interface {

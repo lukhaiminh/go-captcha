@@ -16,7 +16,7 @@ import (
 	"unicode"
 	"unicode/utf8"
 
-	"github.com/wenlng/go-captcha/v2/base/random"
+	"github.com/lukhaiminh/go-captcha/v2/base/random"
 )
 
 // t2x is to turn to hex

@@ -10,8 +10,8 @@ import (
 	"image"
 
 	"github.com/golang/freetype/truetype"
-	"github.com/wenlng/go-captcha/v2/base/helper"
-	"github.com/wenlng/go-captcha/v2/base/logger"
+	"github.com/lukhaiminh/go-captcha/v2/base/helper"
+	"github.com/lukhaiminh/go-captcha/v2/base/logger"
 )
 
 type Resources struct {
